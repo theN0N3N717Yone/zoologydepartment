@@ -17,13 +17,13 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "zoonotes",
-    description: "welcome to zoonotes!",
+    title: "Zoology Department | Morigaon College",
+    description: "welcome to Zoology department, Morigaon college!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://zoonotes.vercel.app/",
+  link: "https://zoologydepartment.vercel.app/",
   since: 2022, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -52,7 +52,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "theN0N3N717Yone/zoonotes",
+      repo: "theN0N3N717Yone/zoologydepartment",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },

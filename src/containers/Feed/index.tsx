@@ -32,7 +32,6 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
         <Footer className="block lg:hidden flex justify-center pb-8" />
       </div>
       <div className="hidden lg:block lg:col-span-3">
-        <Cards.ServiceCard />
         <Cards.ContactCard />
         <Footer className="pt-4" />
       </div>
