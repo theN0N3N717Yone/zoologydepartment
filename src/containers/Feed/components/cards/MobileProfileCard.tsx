@@ -1,10 +1,8 @@
 import CONFIG from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
-  AiOutlineGithub,
+  AiOutlineGlobal,
   AiOutlineMail,
-  AiOutlineUser,
 } from "react-icons/ai"
 
 type Props = {
@@ -18,25 +16,14 @@ const MobileProfileCard: React.FC<Props> = () => {
       <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.github && (
           <a
-            href={`https://github.com/${CONFIG.profile.github}`}
-            rel="noreferrer"
-            target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
-          >
-            <AiOutlineGithub className="text-2xl" />
-            <div className="text-sm">github</div>
-          </a>
-        )}
-        {CONFIG.profile.instagram && (
-          <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-            rel="noreferrer"
-            target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
-          >
-            <AiOutlineInstagram className="text-2xl" />
-            <div className="text-sm">instagram</div>
-          </a>
+          href={`https://www.morigaoncollege.edu.in/`}
+          rel="noreferrer"
+          target="_blank"
+          className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
+        >
+          <AiOutlineGlobal className="text-2xl" />
+          <div className="text-sm">website</div>
+        </a>
         )}
         {CONFIG.profile.email && (
           <a
